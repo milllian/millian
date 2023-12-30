@@ -1,0 +1,50 @@
+/* Estilo para o elemento body */
+body {
+    /* Estilo de fundo com uma imagem de plano de fundo */
+    background-image: url(../img/bg5.jpg);
+
+    /* Evita que a imagem de plano de fundo se repita */
+    background-repeat: no-repeat;
+
+    /* Mantém a imagem de plano de fundo fixa enquanto o restante da página rola */
+    background-attachment: fixed;
+
+    /* Garante que a imagem de plano de fundo cubra todo o elemento */
+    background-size: cover;
+
+    /* Configuração para zerar as margens ao redor do elemento */
+    margin: 0;
+
+    /* Configuração para exibir o conteúdo no centro do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Garante que o conteúdo ocupe 100% da altura da tela */
+    height: 100vh; /* Isso garante que o conteúdo ocupe 100% da altura da tela */
+}
+
+/* Estilo para a classe .logo */
+.logo {
+    max-width: 100%; /* A imagem não ultrapassará a largura do seu contêiner */
+    height: auto; /* A altura se ajustará automaticamente de acordo com a largura */
+    width: 250px;
+}
+
+/* Estilo para a classe .slogan */
+.slogan {
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+    margin-top: 10px; /* Adicione um espaçamento superior conforme necessário */
+    font-weight: bold; /* Adiciona negrito ao texto */
+    color: black;  
+}
+
+/* Estilo para a classe .logoMillian */
+.logoMillian {
+    /* Configuração para exibir os elementos como uma coluna */
+    display: flex;
+    flex-direction: column;
+    
+    /* Alinha os itens ao centro no eixo principal (vertical) */
+    align-items: center;
+}
